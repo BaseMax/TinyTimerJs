@@ -186,7 +186,7 @@
 	/**
 	* @struct onload
 	*
-	* @goal : set onclick and events after page load...
+	* @goal : Execute and start timer...
 	*
 	* @return void
 	**/
