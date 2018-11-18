@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Example TinyTimer.js</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="TinyTimer.js"></script>
+	</head>
+	<body>
+		<h1>Example TinyTimer.js</h1>
+		<div data-timer-update="update" data-timer-done="done" data-timer-finish="finish" data-timer-duration="3" data-timer-repeat="true"></div>
+
+		<div data-timer-update="update" data-timer-delay="2000" data-timer-mutation="2" data-timer-done="done" data-timer-finish="finish" data-timer-duration="12" data-timer-repeat="true"></div>
+		<script>
+		function done(index)
+		{
+			console.log("#"+index+" : Done");
+		}
+		function finish(index)
+		{
+			console.log("#"+index+" : Finish");
+		}
+		function update(index)
+		{
+			console.log("#"+index+" : Update");
+		}
+		</script>
+	</body>
+</html>
