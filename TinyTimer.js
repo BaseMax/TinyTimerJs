@@ -8,7 +8,6 @@
 * @Repository : https://github.com/BaseMax/TinyTimerJs
 *
 **/
-
 ;(function(window,document)
 {
 	"use strict";
