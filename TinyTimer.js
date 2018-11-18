@@ -102,7 +102,7 @@
 			if(element.hasAttribute(KEY_REPEAT))
 			{
 				repeat=element.getAttribute(KEY_REPEAT);
-				//`true == "true"` is alwyse false and not necessary to use from === operator.
+				//`true == "true"` is always false and not necessary to use from === operator.
 				if(repeat == "true")
 				{
 					repeat=true;
