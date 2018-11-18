@@ -133,7 +133,7 @@
 				{
 					if(done)
 					{
-						eval('window.'+done+'('+timer_index+')');
+						eval("window."+done+"("+timer_index+")");
 					}
 					//here === operator is necessary!
 					if(repeat === true || (typeof repeat == "number" && repeat > index))
@@ -144,7 +144,7 @@
 					{
 						if(finish)
 						{
-							eval('window.'+finish+'('+timer_index+')');
+							eval("window."+finish+"("+timer_index+")");
 						}
 						clearInterval(timers[timer_index]);
 						//element.textContent = "";
@@ -158,7 +158,7 @@
 				seconds = seconds < 10 ? "0" + seconds : seconds;
 				if(update)
 				{
-					eval('window.'+update+"("+timer_index+")");
+					eval("window."+update+"("+timer_index+")");
 				}
 				element.textContent = minutes + ":" + seconds;
 				time-=mutation;
@@ -197,6 +197,7 @@
 		data_items.forEach(function(item,index)
 		{
 			item.setAttribute(KEY_INDEX,index);
+			item.classList.add("timer-"+index);
 			execute(item);
 		});
 	},false);
