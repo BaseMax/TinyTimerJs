@@ -17,7 +17,7 @@ Tiny and Powerful Library for show time counter.
 | data-timer-finish  	| Functional name for called each time the timer complete and finish. | Optional |
 | data-timer-delay  	| Delay time to run the timer | 1000 ms (1s) |
 | data-timer-mutation  	| The mutation of the time | 1 (one by one) |
-| data-timer-duration  	| Time value in seconds | Essential and without initial value |
+| data-timer-duration  	| Time value in seconds | Essential and without initial value (Units in seconds) |
 | data-timer-repeat  	| Number of repetitions | unlimited |
 
 
