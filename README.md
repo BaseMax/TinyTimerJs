@@ -21,3 +21,57 @@ Tiny and Powerful Library for show time counter.
 | data-timer-repeat  	| Number of repetitions | unlimited |
 
 
+## Samples
+
+To view the full details, run the [Example.html](https://github.com/BaseMax/TinyTimerJs/blob/master/Example.html) file.
+
+#### `data-timer-duration`
+
+```
+<div data-timer-duration="3"></div>
+```
+```
+<div data-timer-duration="3" data-timer-repeat="true"></div>
+```
+
+#### `data-timer-repeat`
+
+```
+<div data-timer-duration="3" data-timer-repeat="2"></div>
+```
+
+
+#### `data-timer-repeat`
+
+```
+<div data-timer-duration="3" data-timer-repeat="2"></div>
+```
+
+
+#### `data-timer-mutation`
+
+```
+<div data-timer-duration="7" data-timer-mutation="2" data-timer-repeat="2"></div>
+```
+
+
+
+#### `data-timer-delay`
+
+```
+<div data-timer-duration="7" data-timer-delay="2000" data-timer-mutation="2" data-timer-repeat="2"></div>
+```
+
+
+#### `data-timer-update`
+```
+<script>
+function check(index)
+{
+	console.log("Next...");
+}
+</script>
+<div data-timer-duration="3" data-timer-update="check"></div>
+```
+#### `data-timer-finish`
+#### `data-timer-done`
