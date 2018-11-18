@@ -15,8 +15,8 @@
 
 		<div data-timer-duration="7" data-timer-mutation="2" data-timer-repeat="2"></div>
 
-		<div data-timer-duration="7" data-timer-delay="2000" data-timer-mutation="2" data-timer-repeat="2"></div>
-		
+		<div data-timer-duration="7" data-timer-mutation="2" data-timer-finish="finish" data-timer-repeat="2"></div>
+
 		<script>
 		function done(index)
 		{
@@ -24,6 +24,11 @@
 		}
 		function finish(index)
 		{
+			let element=document.querySelector("div.timer-"+index);
+			if(element)//Found
+			{
+				element.textContent="Finish!";
+			}
 			console.log("#"+index+" : Finish");
 		}
 		function update(index)
