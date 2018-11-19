@@ -154,7 +154,9 @@
 				}
 				minutes = parseInt(time / 60,10)
 				seconds = parseInt(time % 60,10);
+				//if(minutes < 10){minutes="0"+minutes;}
 				minutes = minutes < 10 ? "0" + minutes : minutes;
+				//if(seconds < 10){seconds="0"+seconds;}
 				seconds = seconds < 10 ? "0" + seconds : seconds;
 				if(update)
 				{
