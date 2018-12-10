@@ -1,4 +1,4 @@
-# TinyTimer
+# Tiny Timer
 Tiny and Powerful Library for show time counter.
 
 ## Features 
