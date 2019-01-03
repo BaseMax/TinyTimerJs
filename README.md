@@ -20,7 +20,6 @@ Tiny and Powerful Library for show time counter.
 | data-timer-duration  	| Time value in seconds | Essential and without initial value (Units in seconds) |
 | data-timer-repeat  	| Number of repetitions | unlimited |
 
-
 ## Samples
 
 To view the full details, run the [Example.html](https://github.com/BaseMax/TinyTimerJs/blob/master/Example.html) file.
