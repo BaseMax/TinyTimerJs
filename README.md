@@ -40,7 +40,6 @@ To view the full details, run the [Example.html](https://github.com/BaseMax/Tiny
 <div data-timer-duration="3" data-timer-repeat="2"></div>
 ```
 
-
 #### `data-timer-repeat`
 
 ```
