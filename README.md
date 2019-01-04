@@ -57,7 +57,6 @@ To view the full details, run the [Example.html](https://github.com/BaseMax/Tiny
 <div data-timer-duration="7" data-timer-delay="2000" data-timer-mutation="2" data-timer-repeat="2"></div>
 ```
 
-
 #### `data-timer-update`
 ```
 <script>
