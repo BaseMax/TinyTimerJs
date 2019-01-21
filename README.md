@@ -69,3 +69,8 @@ function check(index)
 ```
 #### `data-timer-finish`
 #### `data-timer-done`
+
+
+# License
+
+TinyTimer is licensed under the [GNU General Public License](https://github.com/BaseMax/TinyTimerJs/blob/master/LICENSE).
