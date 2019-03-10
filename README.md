@@ -1,4 +1,5 @@
 # Tiny Timer
+
 Tiny and Powerful Library for show time counter.
 
 ## Features 
@@ -8,7 +9,7 @@ Tiny and Powerful Library for show time counter.
   - Compact
   - No dependencies
   
-  ## Arguments 
+## Arguments 
 
 | Argument Name  | Goal | Default |
 | ------------- | ------------- | ----- |
@@ -67,6 +68,7 @@ function check(index)
 </script>
 <div data-timer-duration="3" data-timer-update="check"></div>
 ```
+
 #### `data-timer-finish`
 #### `data-timer-done`
 
